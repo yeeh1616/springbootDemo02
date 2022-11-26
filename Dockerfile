@@ -1,6 +1,6 @@
-FROM maven:2.7.6-openjdk-19.0.1
+FROM maven:2.7.6-jdk-8
 
-WORKDIR /springbootDemo02
+WORKDIR /bezkoder-app
 COPY . .
 RUN mvn clean install
 
