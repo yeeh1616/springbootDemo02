@@ -1,4 +1,4 @@
-FROM maven:2.7.6-jdk-19
+FROM maven:2.7.6-openjdk-19.0.1
 
 WORKDIR /springbootDemo02
 COPY . .
